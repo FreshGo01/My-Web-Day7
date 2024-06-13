@@ -6,6 +6,7 @@ const userStore = useUserStore()
 onMounted(() => {
   userStore.getUsers()
 })
+console.log(userStore.users)
 </script>
 
 <template>
